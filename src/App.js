@@ -1,25 +1,54 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Hello from "./component/Hello";
+// import Body from "./component/Body";
+// import { createBrowserRouter } from "react-router-dom";
+// import About from "./component/About";
+// import Error from "./component/Error";
+// import Contact from "./component/Contact"
+// import { Outlet } from "react-router-dom"
+// import ResturantMenu from "./component/ResturantMenu";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+const App = ()=>{
+
+    return (
+        <div className="app">
+            <Hello/>
+           {/* <Body/> */}
+        </div>
+    )
 }
+
+// export const appRouter = createBrowserRouter([
+//     {
+//            path : "/",
+//            element : <App/>,
+//     //        children:[
+//     // {
+//     //         path : "/", 
+//     //         element : <Body/>
+//      },
+//      {
+//       path : "/about", 
+//       element : <About/>
+// },
+// {
+//     path : "/contact",
+//     element : <Contact/>
+// },
+     
+//     // {
+//     //     path : "/resturants/:resId",
+//     //     element : <ResturantMenu/>
+//     // },
+
+// ],
+//           //  errorElement : <Error/>
+// //     }
+   
+//  );
+
+
 
 export default App;
