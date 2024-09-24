@@ -1,5 +1,14 @@
 import React from "react";
-import Hello from "./component/Hello";
+// import Hello from "./component/Hello";
+// import Api from "./component/Api";
+// import Todo from "./component/Todo";
+// import Traffic from "./component/Traffic";
+import Calculator from "./component/Calculator";
+import Display from "./component/Display";
+import Fetch from "./component/Fetch";
+
+
+ ;
 // import Body from "./component/Body";
 // import { createBrowserRouter } from "react-router-dom";
 // import About from "./component/About";
@@ -14,8 +23,15 @@ const App = ()=>{
 
     return (
         <div className="app">
-            <Hello/>
+            {/* <Api/> */}
+            {/* <Hello/> */}
            {/* <Body/> */}
+           {/* <Todo/> */}
+        {/* <Traffic/> */}
+        {/* <Calculator/>
+          */}
+          {/* <Display/> */}
+          <Fetch/>
         </div>
     )
 }
